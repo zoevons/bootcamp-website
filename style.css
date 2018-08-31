@@ -1,0 +1,903 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+ html, body {
+   font-family: 'Nanum Gothic Coding', monospace;
+ }
+
+.header-section {
+  background-image: url("img/squares.svg");
+  width: 100%;
+  height: 250px;
+}
+
+.logo-text {
+  position: absolute;
+  top: 13%;
+  left: 130px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 60px;
+}
+/* Navbar */
+nav.navbar.navbar-inverse {
+  background-color: black;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  width: 100%;
+}
+
+
+nav li a {
+  color: white;
+}
+
+
+
+/* Second Secton */
+.container-fluid-second {
+  margin-right: 80px;
+  margin-left: 100px;
+}
+
+.second-section {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.future {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.address {
+  text-decoration: underline;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.social {
+  text-decoration: underline;
+  font-size: 12px;
+}
+/* Third Section */
+.container-fluid-third {
+  margin-left: 150px;
+  margin-right: 150px;
+  width: auto;
+}
+
+.third-section {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.third-section-header {
+  text-transform: uppercase;
+  margin: 10px 0 20px 150px;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.career-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.career {
+  color: white;
+}
+
+/* fourth section */
+.fourth-section {
+  margin-top: 30px;
+}
+
+.container-fluid-fourth {
+  margin: 0 150px 30px 150px;
+}
+
+.fourth-section-header {
+  margin-left: 160px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.name {
+  margin: 30px 0 30px 0;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.job-role {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.student-story {
+  margin-top: 20px;
+}
+
+.read-story {
+  text-decoration: underline;
+  color: black;
+}
+/* fifth section */
+.container-fluid-fifth {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 30px;
+}
+.fifth-section {
+  background-color: black;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.fifth-section-header {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 150px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.career-header {
+  font-weight: bold;
+  margin-top: -10px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+}
+
+.career-fifth {
+  color: white;
+}
+
+/* partners section */
+.partners-section {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0 10px 150px;
+  font-size: 32px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.container-fluid-partners {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+}
+
+img {
+  filter: grayscale(100%);
+}
+
+/* footer */
+footer {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.container-fluid-footer {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 30px;
+}
+
+.footer-header {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.footer-courses {
+  color: white;
+  list-style : none;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer-about {
+  color: white;
+  list-style: none;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+h5 {
+   color: white;
+   font-size: 16px;
+   padding-bottom: 10px;
+ }
+
+.footer-address {
+  color: white;
+  font-size: 14px;
+}
+
+.telephone {
+  color: white;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.opening-times {
+  color: white;
+  font-size: 14px;
+}
+
+.copyright {
+  color: white;
+  margin-left: 160px;
+  font-size: 14px;
+}
+
+/* ABOUT PAGE */
+.section-one {
+  margin: 50px 100px 50px 100px;
+  overflow: auto;
+}
+
+.campus-header {
+  width: 20%;
+  float: left;
+  margin-left: 40px;
+}
+
+.campus {
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.campus-image {
+  width: 70%;
+  display: inline;
+  float: right;
+}
+
+.us {
+  text-transform: uppercase;
+  font-family: 'Pathway Gothic One', sans-serif;
+  margin-left: 130px;
+}
+
+#gretelle-image {
+  margin-left: 40px;
+}
+
+.staff-about {
+  margin-right: 80px;
+}
+
+.staff-name-gretelle {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.staff-job-title-gretelle {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#antonello-image, #george,
+#marina, #sophie,
+#chris, #seb {
+  margin-left: -15px;
+  margin-top: 50px;
+}
+
+.staff-name {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.staff-job-title {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.staff-about-seb {
+  margin-bottom: 50px;
+  margin-right: 80px;
+}
+
+/* COURSE PAGE */
+.bootcamp-section-one {
+  margin: 40px 20px 40px 20px;
+  overflow: auto;
+}
+
+.info-header {
+  width: 30%;
+  float: left;
+  margin: 0 0 0 110px;
+}
+
+.course-image {
+  width: 50%;
+  float: right;
+  margin: 0 80px 0 40px;
+}
+
+.bootcamp-header {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bootcamp-subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.list-section {
+  margin-left: 550px;
+}
+
+.learn-header, .outcome-header, .tuition-header,
+.scholarship-header, .funding-header,
+.possible-header, .workflow-header,
+.why-header, .barcelona-header,
+.faq-header, .hiring-header, .access-header {
+  float: left;
+  margin: 0 130px;
+}
+
+.no-coding-header, .some-coding-header {
+  margin: 0 60px 0 130px;
+  float: left;
+}
+
+.learn, .outcome, .tuition,
+.scholarship, .funding, .possible,
+.no-coding, .some-coding, .workflow,
+.why, .barcelona, .faq, .hiring, .access {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.learn-list {
+  margin-left: 550px;
+  margin-right: 20px;
+}
+
+.outcome-list, .tuition-list,
+.scholarship-list, .funding-list,
+.possible-list, .nocoding, .somecoding,
+.workflow-list, .why-list,
+.barcelona-list, .faq-list, .hiring-list,
+.event {
+  margin-left: 530px;
+  margin-right: 40px;
+}
+
+.outcome-info-list, .tuition-info-list,
+.scholarship-info-list, .funding-info-list,
+.possible-info-list, .workflow-info-list,
+.why-info-list, .barcelona-info-list,
+.faq-info-list {
+  list-style-type: none;
+}
+
+.price, .discount, .time {
+  font-weight: bold;
+}
+
+.future-funded {
+  text-decoration: underline;
+}
+
+.workflow-info-list li {
+  margin-top: 20px;
+}
+
+.faq-info-list li {
+  font-weight: bold;
+}
+
+.faq-section {
+  margin-top: 20px;
+}
+
+.inquiry {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-left: 520px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#comment {
+  width: 55%;
+  margin: 20px 0 20px 520px;
+}
+
+.form-inline {
+  margin-left: 470px;
+}
+
+input#email.form-control, input#name.form-control {
+  width: 300px;
+}
+
+.btn-default {
+  margin: 20px 0 20px 520px;
+  background-color: black;
+  color: white;
+  width: 55%;
+}
+
+.event {
+  border: 1px solid grey;
+  display: grid;
+  grid-template-columns: 1fr 6fr 4fr;
+  grid-gap: 1em;
+  margin-bottom: 20px;
+}
+
+.event-dates {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.event-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.event-info {
+  margin-top: 10px;
+}
+
+.subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.event-button {
+  border: 1px solid grey;
+  background: white;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+/* CALENDAR PAGE */
+.upcoming-dates {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 30px 0 20px 150px;
+}
+
+.june-dates {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.calendar-section {
+  margin: 10px 150px 20px 150px;
+}
+
+.calendar-events {
+  border: 1px solid grey;
+  display: grid;
+  grid-template-columns: 1fr 6fr 4fr;
+  grid-gap: 1em;
+  margin-bottom: 20px;
+}
+
+.calendar-dates {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.calendar-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.calendar-info {
+  margin-top: 10px;
+}
+
+.calendar-subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.calendar-button {
+  border: 1px solid grey;
+  background: white;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.wp, .ux, .summer, .full-stack,
+.online {
+  margin-left: 30px;
+}
+
+.summer-info {
+  margin: 0;
+}
+
+
+
+/* MEDIA QUERIES */
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .header-section {
+    height: 155px;
+  }
+
+  .logo-text {
+    font-size: 30px;
+    left: 25px;
+    margin-top: -70px;
+  }
+
+  .container-fluid-second, .container-fluid-third {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+  .social {
+    padding-bottom: 20px;
+}
+
+  .third-section-header, .fourth-section-header {
+    margin-left: 40px;
+  }
+
+  .container-fluid-fourth {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .fifth-section-header, .partners-section {
+    margin-left: 40px;
+  }
+
+  .container-fluid-fifth {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .container-fluid-footer {
+    margin-left: 20px;
+  }
+
+  .copyright {
+    margin-left: 50px;
+  }
+
+
+/* About page (media query) */
+.section-one {
+  margin: 20px;
+}
+
+.campus-header, .campus-image {
+  float: none;
+}
+
+.campus-header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.container-fluid-gretelle {
+  margin: 20px;
+}
+
+#gretelle-image, #antonello-image,
+#george, #marina, #sophie, #chris, #seb {
+  margin: 20px 0 0 0;
+}
+
+.staff-name-gretelle, .staff-job-title-gretelle {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.staff-name, .staff-job-title {
+  text-align: center;
+}
+
+.staff-name {
+  padding-top: 20px;
+}
+
+.staff-about {
+  margin: 0 10px 0 10px;
+}
+
+.us {
+  margin-left: 0;
+}
+
+/* COURSES PAGE (Media Query)*/
+.info-header {
+  float: none;
+  width: 90%;
+  margin: 10px 25px;
+}
+
+.bootcamp-header {
+  font-size: 30px;
+}
+
+.bootcamp-subheader {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.course-image {
+  float: none;
+  width: 100%;
+  margin: 10px;
+}
+
+.list-section, .learn-list,
+.outcome-list, .tuition-list,
+.scholarship-list, .funding-list,
+.possible-list, .nocoding,
+.somecoding, .workflow-list,
+.why-list, .barcelona-list,
+.hiring-list, .faq-list {
+  margin: 0 30px 20px 60px;
+}
+
+.learn-header, .outcome-header,
+.tuition-header, .scholarship-header,
+.funding-header, .access-header,
+.possible-header, .no-coding-header,
+.some-coding-header, .workflow-header,
+.why-header, .barcelona-header,
+.hiring-header, .faq-header {
+  margin: 0 50px;
+  float: none;
+}
+
+.event {
+  margin: 20px 40px 20px 40px;
+}
+
+.inquiry {
+  margin: 50px;
+}
+
+#comment {
+  width: 80%;
+  margin: -30px 20px 20px 50px;
+}
+
+#form-two {
+  margin-left: 0px;
+}
+
+.btn-default {
+  margin: 10px 0 20px 50px;
+  width: 30%;
+}
+/* CALENDER PAGE (Media Query) */
+.calendar-section {
+  margin: 20px;
+}
+
+.upcoming-dates {
+  margin: 20px;
+}
+}
+
+/*Tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .header-section {
+    height: 160px;
+  }
+
+  .logo-text {
+    left: 20px;
+    font-size: 32px;
+    top: 6%;
+  }
+
+  .container-fluid-second, .container-fluid-third,
+  .container-fluid-fourth, .container-fluid-fifth {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .third-section-header, .fourth-section-header {
+    margin-left: 40px;
+  }
+
+  .fifth-section-header {
+    margin-left: 65px;
+  }
+
+  .career-fifth {
+    padding-bottom: 30px;
+  }
+
+  .career-header {
+    padding-top: 20px;
+  }
+
+  .third-section-header {
+    padding-bottom: 0;
+  }
+
+  .container-fluid-partners {
+    margin: 0;
+  }
+
+  .partners-section {
+    margin-left: 40px;
+  }
+
+  .container-fluid-footer {
+    margin: 0;
+  }
+
+  .copyright {
+    margin-left: 40px;
+  }
+
+/* About Page */
+.section-one {
+  margin: 20px 20px 30px 20px;
+}
+
+.campus-header {
+  float: none;
+  margin-left: 0;
+  width: 100%;
+}
+
+.campus-image {
+  float: none;
+}
+
+.us {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#gretelle-image {
+  margin-left: 20px;
+}
+
+#antonello-image,
+#george, #marina, #sophie, #chris, #seb {
+  margin-left: 20px;
+}
+
+/* COURSES PAGE (Media Query)*/
+.info-header {
+  float: none;
+  width: 90%;
+  margin: 10px 25px;
+}
+
+.bootcamp-header {
+  font-size: 30px;
+}
+
+.bootcamp-subheader {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.course-image {
+  float: none;
+  width: 100%;
+  margin: 10px;
+}
+
+.list-section, .learn-list,
+.outcome-list, .tuition-list,
+.scholarship-list, .funding-list,
+.possible-list, .nocoding,
+.somecoding, .workflow-list,
+.why-list, .barcelona-list,
+.hiring-list, .faq-list {
+  margin: 0 30px 20px 60px;
+}
+
+.learn-header, .outcome-header,
+.tuition-header, .scholarship-header,
+.funding-header, .access-header,
+.possible-header, .no-coding-header,
+.some-coding-header, .workflow-header,
+.why-header, .barcelona-header,
+.hiring-header, .faq-header {
+  margin: 0 50px;
+  float: none;
+}
+
+.event {
+  margin: 20px 40px 20px 40px;
+}
+
+.inquiry {
+  margin: 50px;
+}
+
+#comment {
+  width: 80%;
+  margin: -30px 20px 20px 50px;
+}
+
+#form-two {
+  margin-left: 40px;
+  width: 50%;
+}
+
+#name {
+  margin-bottom: 20px;
+}
+.btn-default {
+  margin: 20px 0 20px 50px;
+  width: 30%;
+}
+
+/* CALENDER PAGE (Media Query) */
+.calendar-section {
+  margin: 10px;
+}
+
+.upcoming-dates {
+  margin: 20px 0 20px 10px;
+}
+
+}
